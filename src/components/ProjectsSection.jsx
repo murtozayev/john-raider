@@ -1,34 +1,38 @@
+import v_comp from "./projects/V-comp.png"
+import nibble from "./projects/nibble.png"
+import mpost from "./projects/mpost.png"
+
 import { ArrowRight, ExternalLink, Github } from "lucide-react";
 
 const projects = [
   {
     id: 1,
-    title: "SaaS Landing Page",
-    description: "A beautiful landing page app using React and Tailwind.",
-    image: "/projects/project1.png",
-    tags: ["React", "TailwindCSS", "Supabase"],
-    demoUrl: "#",
-    githubUrl: "#",
+    title: "V-COMP E-Commerce",
+    description: "E-Commerce Full Stack APP",
+    image: v_comp,
+    tags: ["React", "Node JS", "Express JS", "MongoDB", "REST api"],
+    demoUrl: "https://v-comp-app-murtozayev.vercel.app/",
+    githubUrl: "https://www/github.com/murtozayev",
   },
   {
     id: 2,
-    title: "Orbit Analytics Dashboard",
+    title: "Nibble Food Delivery app",
     description:
       "Interactive analytics dashboard with data visualization and filtering capabilities.",
-    image: "/projects/project2.png",
-    tags: ["TypeScript", "D3.js", "Next.js"],
-    demoUrl: "#",
-    githubUrl: "#",
+    image: nibble,
+    tags: ["React JS", "Node JS", "Express JS", "MongoDB"],
+    demoUrl: "https://nibbleapp.vercel.app/",
+    githubUrl: "https://www/github.com/murtozayev",
   },
   {
     id: 3,
-    title: "E-commerce Platform",
+    title: "MPOST Social Media App",
     description:
-      "Full-featured e-commerce platform with user authentication and payment processing.",
-    image: "/projects/project3.png",
-    tags: ["React", "Node.js", "Stripe"],
+      "Full stack realtime and cloudy project and you can create video image posts",
+    image: mpost,
+    tags: ["React", "Node.js", "MongoDB", "Express.js"],
     demoUrl: "#",
-    githubUrl: "#",
+    githubUrl: "https://github.com/murtozayev/mpost",
   },
 ];
 
@@ -100,7 +104,7 @@ export const ProjectsSection = () => {
           <a
             className="cosmic-button w-fit flex items-center mx-auto gap-2"
             target="_blank"
-            href="https://github.com/machadop1407"
+            href="https://github.com/murtozayev"
           >
             Check My Github <ArrowRight size={16} />
           </a>

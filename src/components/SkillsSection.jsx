@@ -14,14 +14,28 @@ const skills = [
   { name: "Node.js", level: 80, category: "backend" },
   { name: "Express", level: 75, category: "backend" },
   { name: "MongoDB", level: 70, category: "backend" },
-  { name: "PostgreSQL", level: 65, category: "backend" },
+  { name: "Apollo Server", level: 65, category: "backend" },
   { name: "GraphQL", level: 60, category: "backend" },
 
   // Tools
   { name: "Git/GitHub", level: 90, category: "tools" },
-  { name: "Docker", level: 70, category: "tools" },
-  { name: "Figma", level: 85, category: "tools" },
+  { name: "Socket.IO", level: 90, category: "tools" },
+  { name: "Redux Toolkit", level: 90, category: "frontend" },
+  { name: "Zod and react-form-hook", level: 90, category: "frontend" },
+  { name: "UI Libraries", level: 90, category: "frontend" },
+  { name: "JWT and COOKIE", level: 90, category: "backend" },
+  { name: "Oauth and Passport JS", level: 90, category: "backend" },
+  { name: "Performance optimization", level: 90, category: "tools" },
+  { name: "Tanstack Query", level: 90, category: "frontend" },
+  { name: "Redis Catching", level: 90, category: "backend" },
+  { name: "RabbitMQ", level: 90, category: "backend" },
+  { name: "RTK Query", level: 90, category: "frontend" },
+  { name: "Zustand", level: 90, category: "frontend" },
   { name: "VS Code", level: 95, category: "tools" },
+  { name: "API integration", level: 95, category: "tools" },
+  { name: "Reverse Proxy", level: 95, category: "backend" },
+  { name: "FSD", level: 95, category: "frontend" },
+  { name: "Microservices", level: 95, category: "backend" },
 ];
 
 const categories = ["all", "frontend", "backend", "tools"];
